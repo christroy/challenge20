@@ -1,0 +1,15 @@
+.about {
+    padding: 60px 20px;
+
+}
+
+.about h1 {
+    margin-bottom: 25px;
+
+}
+
+.about .MuiSvgIcon-root {
+    height: 135px;
+    width: 135px;
+    margin-bottom: 10px;
+}
