@@ -31,12 +31,12 @@
     font-weight: 900;
     text-decoration: none;
     box-sizing: border-box;
-    background-color: dodgerblue;
+    background-color: #b8d0ebff;
     
 }
 
 .header .logo a {
-    color: dodgerblue;
+    color: #fa9f42ff;
     text-decoration: none;
     font-size: 32px;
     font-weight: 700;

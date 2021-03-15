@@ -1,0 +1,22 @@
+.resume {
+    padding: 60px 30px;
+    box-sizing: border-box;
+
+}
+
+.resume .skills h2 {
+    margin: 20px 0;
+
+}
+
+.resume .skills ul {
+    padding-left: 15px;
+    max-width: 300px;
+}
+
+.resume .skills ul li {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px dashed #333;
+
+}

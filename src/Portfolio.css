@@ -1,29 +1,77 @@
 .portfolio {
     padding: 60px 30px;
     width: 100%;
+    box-sizing: border-box;
 
 }
 
 .portfolio .portfolio_container {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0;
     box-sizing: border-box;
 
 }
 
 .portfolio .portfolio_container .portfolio_card {
-    padding: 15px;
+    overflow: hidden;
     border: 1px solid #333;
     border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(36,123,160,0.25);
     margin:15px 30px;
     width: 300px;
+    transition: 200ms all ease-in-out;
+
+}
+.portfolio .portfolio_container .portfolio_card:hover{
+    opacity: 0.7;
 }
 
 .portfolio .portfolio_container .portfolio_card img {
     width: 100%;
     object-fit: contain;
+    height: 200px;
+}
+
+
+.portfolio .portfolio_container .portfolio_card p {
+    padding: 0 15px;
+    color: #247ba0ff;
+
+
+}
+
+.portfolio .portfolio_container .portfolio_card a {
+    text-decoration: none;
+}
+
+.portfolio .portfolio_container .portfolio_card h2 {
+    
+    border-bottom: 1px solid #247ba0ff;
+    margin: 10px 15px 5px 15px;
+    color: #247ba0ff;
+}
+
+.portfolio .portfolio_container .portfolio_card .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+}
+
+.portfolio .portfolio_container .portfolio_card .buttonGroup a {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #fa9f42ff;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #fa9f42ff;
+    transition: 200ms all ease-in-out;
+    box-sizing: border-box;
+    margin: 0 10px;
+    flex: 0.5;
 }

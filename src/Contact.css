@@ -1,0 +1,35 @@
+
+.contact {
+    padding: 60px 30px;
+    box-sizing: border-box;
+}
+
+
+.contact_container {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-top: 50px;
+
+
+}
+
+.contact_container .left {
+    
+    
+}
+
+.contact_container .right {
+    
+}
+
+.contact_container a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+.contact_container h2 {
+    margin-bottom: 10px;
+}
